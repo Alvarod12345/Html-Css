@@ -1,0 +1,32 @@
+body {
+    background-color: #263238;
+    color: #c5cae9;            
+}
+ol{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+
+p {
+    padding: 40px;
+    background-color: #424242;
+    font-size: 35px;
+}
+h1{
+    font-size: 80px ;
+    color: #e64a19;
+    text-align: center;
+}
+
+main img{
+    width: 400px;
+    height: 300px;
+    border: 20px solid #455a64;
+    margin-left: 400px;
+}
+footer p{
+    color: #8c9eff;
+    background-color: black;
+}
