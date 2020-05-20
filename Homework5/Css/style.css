@@ -1,32 +1,69 @@
-body {
-    background-color: #263238;
-    color: #c5cae9;            
-}
-ol{
-    font-size: 20px;
-}
-ul{
-    font-size: 20px;
-}
-
-p {
-    padding: 40px;
-    background-color: #424242;
-    font-size: 35px;
-}
-h1{
-    font-size: 80px ;
+#tittle {
+    font-size: 35px ;
     color: #e64a19;
     text-align: center;
+    margin: 0cpx;
 }
 
-main img{
+#main > p{
+    padding: 20px;
+    background-color: #424242;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#main > ol{
+    font-size: 20px;
+}
+
+#main >ul{
+    font-size: 20px;
+}
+
+#main img{
     width: 400px;
     height: 300px;
     border: 20px solid #455a64;
     margin-left: 400px;
 }
-footer p{
+#footer p{
     color: #8c9eff;
-    background-color: black;
+  
+}
+
+.back-ground-body{
+    background-color: #263238;
+    color: #c5cae9;  
+}
+
+.back-ground-footer{
+   
+    font-size: 20px;
+    background-color:#3e2723;
+    
+}
+
+
+#ul{
+    list-style-image: url(1x/baseline_keyboard_arrow_right_black_24dp.png);
+}
+
+#ol{
+    list-style-type: upper-roman;
+}
+
+#span{
+    color: brown;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: bold;  
+}
+.normal{
+    font-style: normal;
+    color: red;
+}
+
+#footer{
+    padding: 5px;
+    margin: 5px;
 }
