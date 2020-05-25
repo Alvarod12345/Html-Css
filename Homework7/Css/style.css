@@ -1,0 +1,194 @@
+/* phone */
+@media (max-width: 400px){
+    .back-ground-body{
+        background-color: #e64a19   ;
+    }
+}
+
+/* tablet */
+@media (min-width: 401px) and (max-width: 750px){
+   html{
+       background-color: lightblue;
+   }
+}
+
+/* pc */
+@media (min-width:750px) and (max-width:2080px ){
+    html{
+        background-color: #263238;
+    }
+}
+
+
+#tittle h1{
+    font-size: 35px ;
+    color: #e64a19;
+    text-align: center;
+    margin: 0cpx;
+}
+
+#tittle > p{
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+#nav-id{
+    height: 50px;
+    background-color: 263238;
+    width: 100%;
+    line-height: 50px;
+}
+
+#nav-id ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+#nav-id li{
+    background-color: #3e2723;
+    font-size: 30px;
+}
+
+
+#nav-id a{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+    padding:0 10px;
+}
+
+#main > p{
+    padding: 20px;
+    background-color: #424242;
+    font-size: 25px;
+    margin: 0px 5px;
+}
+
+#div-id p:last-child{
+    padding: 20px;
+    background-color: #424242;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+#main article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: centrer;
+    margin: 20px;
+
+}
+
+#section-id{
+    width: 100%;
+    margin: 0px 5   px;
+    padding: 0px 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#main article .card{
+
+    background-color:#37474f;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+#main #ingredients{
+    margin-right:auto;
+}
+
+
+#main article section h3{
+    padding: 20px;
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;
+}
+
+#div-id p{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#main  ol{
+    font-size: 25px;
+    padding: 40px;
+}
+
+#main ul{
+    font-size: 25px;
+    padding: 40px;
+}
+#image-id:hover {
+    transform: scale(1.2);
+}
+
+#image-lower {
+    text-align: center;
+}
+#footer p{
+    color: #8c9eff;
+
+}
+/*
+.back-ground-body{
+    background-color: #263238;
+    color: #c5cae9;
+    margin: 0px 0px;
+}
+
+.back-ground-footer{
+
+    font-size: 20px;
+    background-color:#3e2723;
+} */
+
+
+#ul{
+    margin: 40px;
+    list-style-image: url(1x/baseline_keyboard_arrow_right_black_24dp.png);
+    margin: 40px;
+
+}
+
+#ol{
+    list-style-type: upper-roman;
+    margin: 40px;
+}
+
+#image-lower img{
+    width: 50%;
+    height: auto;
+}
+#image-lower p{
+    font-size: 40px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#span{
+    color: brown;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.normal{
+    font-style: normal;
+    color: red;
+}
+
+#footer{
+
+    padding: 5px;
+    margin: 0px;
+}
+
