@@ -1,0 +1,141 @@
+#body{
+    background-color: rgb(21, 32, 43);
+}
+
+#body h1{
+    font-family: sans-serif;
+}
+
+img{
+    padding: 10px;
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+#tittle{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-id {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+}
+.username-input{
+    text-align: center;
+
+}
+
+.password-input{
+    text-align: center;
+    position: relative;
+}
+
+.form-id input{
+    width: 540px;
+    height: 90%;
+    color:#ffffff;
+    font-size: 20px;
+    padding-top: 30px;
+    border: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background: rgb(31, 47, 63);
+    margin: 10px;
+}
+
+.form-id .label-name{
+    position: absolute;
+    bottom: 122px;
+    color:#cecece;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.form-id .label-name ::after{
+    content:"";
+    position: absolute;
+    left: 10px;
+    bottom: -33px;
+    height: 0%;
+    width: 550px;
+    border-bottom: 2px solid #5fa8d3;
+}
+
+
+.form-id .label-name2{
+    position: absolute;
+    bottom: 45px;
+    color:#cecece;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.form-id .label-name2 ::after{
+    content:"";
+    position: absolute;
+    left:10px;
+    bottom: -35px;
+    height: 0px;
+    width: 550px;
+    border-bottom: 2px solid #5fa8d3;
+}
+
+.button{
+    text-align: center;
+
+}
+
+.Log-in-button{
+    border: none;
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px ;
+    border-radius: 40px;
+    background: #115fb3;
+    padding: 14px 255px;
+}
+
+.Log-in-button span{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Forgot-pass a{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 530px;
+}
+
+
+.span{
+    color: rgb(8, 104, 200);
+}
+
+.point-class{
+    color:#cecece ;
+}
+
+.Point p{
+    text-align: center;
+    position: relative;
+    left: -5px;
+    top: -20px;
+}
+
+.Sign-up a{
+    text-align: center;
+    position: relative;
+    left: 658px;
+    top: -52px;
+}
