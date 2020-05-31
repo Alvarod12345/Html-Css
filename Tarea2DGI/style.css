@@ -1,0 +1,83 @@
+.logogobperu{
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+
+.menu-bar{
+    min-height: 10px;
+    background-color: aliceblue;;
+}
+
+.navbar-toggler .fa{
+    outline: none !important;
+}
+
+.navbar-text{
+    font-size: 35px;
+    text-decoration: solid;
+}
+
+.nav-link{
+    color: black;
+}
+
+.cabecera-form{
+    padding: 80px;
+    padding-bottom: 20px;
+}
+
+.text-help{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.form-group{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.ayuda_login{
+    width: 500px;
+    padding-top: 5px;
+    padding-left: 160px;
+    border: noce;
+    position: relative;
+    margin: -45px;
+    text-decoration: none;
+}
+
+.captcha{
+    padding: 50px;   
+    padding-left: 120px;
+}
+
+.btn{
+    margin-top: -55px;
+    margin-left: 220px;
+}
+
+.logogobperu2{
+    width: 280px;
+    display: block;
+    margin-left: 50px ;
+}
+
+.logomintraba{
+    width: 280px;
+    display: block;
+    margin-left: 100px ;
+
+}
+
+.logomindesainlcu{
+    width: 280px;
+    display: block;
+    margin-left: 100px ;
+}
+
+.menu-bar2{
+    margin-left: -80px;
+    padding-right: 168px;
+    background-color: aliceblue;
+}

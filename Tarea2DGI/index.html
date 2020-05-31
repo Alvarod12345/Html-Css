@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bono Familiar Universal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="menu-bar">
+        <div class="container">
+            
+            <nav class="navbar navbar-expand-lg ">
+                <span class="navbar-text">
+                   <b> Subsidio Monetario</b>
+                  </span>
+                <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" 
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto text-right">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">PREGUNTAS FRECUENTES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">REGISTRA TU CASO</a>
+                    </li>
+                  </ul>
+                  <!-- <span class="navbar-text">
+                    Navbar text with an inline element
+                  </span> -->
+                  <img class="logogobperu" src="icons/800px-Gobierno_del_peru.png" alt="logo.gobpe">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="icons/bono_peru.png" alt="bonoimg">
+            </div>
+
+            <div class="col-md-6">
+                <div class="cabecera-form">
+                    <h2>
+                        Consulta aquí tu subsidio monetario
+                    </h2>
+            </div>
+                <div class="content-form">
+                    <div class="text-help">
+                        Antes de ingresar tus datos, te recomendamos 
+                        que revises los pasos que debes seguir a través 
+                        de estos videos tutoriales.
+                    </div>
+                    <form class="form-data">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="DNI" autocomplete="off" 
+                            auto-focus="true" min="9" minlength="8" maxlength="8" ng-pattern="/^[0-9]*$/" 
+                            ng-model="consult.dni" numbers-only="" ng-disabled="loading" ng-required="true" 
+                            required="required" aria-invalid="true">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control"
+                            ng-model="consult.date" auto-slash="" minlength="0" 
+                            maxlength="10" ng-disabled="loading" placeholder="DD/MM/AAAA" 
+                            autocomplete="off" name="numeroDocumento" required="" aria-invalid="true">
+                        </div>
+                        
+                        
+                        <div class="conte_imput_login">
+                            <div class="ayuda_login" ng-click="showDNI(showHelpDNI)" role="button" tabindex="1">
+                                <img class="icono_ayudafechaemision" src="" alt="">
+                                <div class="text_ayuda">
+                                    ¿Dónde esta la fecha de emisión de mi DNI?
+                                </div>
+
+                            </div>
+                            <div class="popayuda animated fadeOut d-none" ng-class="{'animated fadeInUp': showHelpDNI,'animated fadeOut d-none': !showHelpDNI}">
+                                <img class="img-dni" src="imagenes/dni-mesa-trabajo.png">
+                            </div>
+                            <!--                            ng-class="{'animated rollIn': showHelpDNI,'animated rollOut': !showHelpDNI}"-->
+                        </div>
+
+
+                        <div class="captcha" 
+                        ng-if="constants.RECAPTCHA_KEY">
+                            <div vc-recaptcha="" ng-if="showRecaptcha" 
+                            class="recaptcha-container ng-scope ng-isolate-scope"
+                            theme="'light'" lang="'es-419'" key="constants.RECAPTCHA_KEY" 
+                            on-create="setRecaptchaId(widgetId)" on-success="setRecaptchaResponse(response)">
+                            <div style="width: 304px; height: 78px;">
+                                <div>
+                                    <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lcf5PkUAAAAAJnb2F5WlIoxlCunlxQACLxDVn11&amp;co=aHR0cHM6Ly9ib25vdW5pdmVyc2FsZmFtaWxpYXIucGU6NDQz&amp;hl
+                                    =es-419&amp;v=HYx6hBAtwYatsD8qzq7tXNTk&amp;theme=light&amp;size=normal&amp;cb=20whto9isezk"
+                                     width="304" height="78" role="presentation" name="a-fr6csqjhy9rn" frameborder="0"
+                                      scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation 
+                                      allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response"
+                                       name="g-recaptcha-response" class="g-recaptcha-response" 
+                                       style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); 
+                                       margin: 10px 25px; padding: 0px; resize: none; display: none;">
+                                    </textarea>
+                                </div><iframe style="display: none;">
+
+                                </iframe>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">CONSULTAR</button>
+                    </form>
+                </div>
+            </div>  
+            
+        <div class="row">
+            <div class="menu-bar2">
+            <div class="col-md-3 footer-widget">
+                    <nav class="navbar navbar-expand-lg ">
+                    
+                        <!-- <span class="navbar-text">
+                            Navbar text with an inline element
+                        </span> -->
+                        <img class="logogobperu2" src="icons/800px-Gobierno_del_peru.png" alt="logo.gobpe">
+                        <img class="logomintraba" src="icons/Mintraabajopro.png" alt="">
+                        <img class="logomindesainlcu" src="icons/mindesainclu.png" alt="">
+                        </div>
+                    </nav>
+                
+            </div>
+        </div>
+        </div>     
+
+        </div>
+    </div>
+</body>
+</html>
